@@ -1,0 +1,57 @@
+{
+  "brief": "Build a local MVP web app for Sudoku solving with a React + Vite frontend and Python 3.11 FastAPI backend implementing the Norvig Method solver. The app allows manual 9x9 board input, validates input, sends puzzles to the backend for solving, and displays the solved board plus a basic solving log.",
+  "meta": {
+    "product_goal": "Create a working local Sudoku solver prototype with minimal complexity for local use in browser.",
+    "target_users": [
+      "sudoku enthusiasts",
+      "casual puzzle solvers",
+      "developers exploring Sudoku solving algorithms"
+    ],
+    "platforms": [
+      "local browser",
+      "local backend server"
+    ],
+    "constraints": [
+      "no production-grade features",
+      "limited to 6 engineering tasks",
+      "maximum 3 backend API endpoints",
+      "simple unit tests only",
+      "no external design resources"
+    ],
+    "success_metrics": [
+      "user can start new game",
+      "user can manually input puzzle",
+      "invalid inputs show clear errors",
+      "puzzle is solved via backend",
+      "solved board and log displayed",
+      "README guides local setup/run"
+    ],
+    "non_goals": [
+      "image upload and OCR",
+      "optimized solving techniques",
+      "live candidate animations",
+      "full Kaggle benchmark",
+      "deployed website mode",
+      "Docker/CI/Playwright",
+      "browser automation"
+    ],
+    "timeline": null,
+    "tech_stack": [
+      "Python 3.11",
+      "FastAPI",
+      "React",
+      "Vite",
+      "plain CSS"
+    ],
+    "integrations": null,
+    "analytics_events": null,
+    "security_privacy": null,
+    "repo": null,
+    "design_refs": [
+      "https://github.com/norvig/pytudes/blob/main/ipynb/Sudoku.ipynb",
+      "https://norvig.com/sudoku.html",
+      "https://www.kaggle.com/datasets/rohanrao/sudoku/data"
+    ],
+    "freeform_notes": "This is a simple, local MVP web app strictly following the detailed V1 acceptance criteria and complexity budget as outlined. All deferred V2 features will be skipped in this phase. Simple local MVP only. OCR/image upload is explicitly deferred to V2. Docker/CI/Playwright/browser automation are deferred to V2 unless added later as a separate integration QA task."
+  }
+}

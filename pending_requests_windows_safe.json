@@ -1,0 +1,73 @@
+[
+  {
+    "request_id": "ff1bca3f-a3ff-4bc5-aafd-3ef6dd7686a8",
+    "created_at_utc": "2026-01-30T05:56:51Z",
+    "agent": "UX",
+    "stage": "ux",
+    "task_id": null,
+    "items": [
+      {
+        "name": "Cap overlay SVG (24px height, stroke #9CA3AF, fill #ECEFF4)",
+        "kind": "asset",
+        "required": true,
+        "preferred_formats": [
+          "svg",
+          "png"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "8 color swatch tokens with HC variants as CSS variables",
+        "kind": "asset",
+        "required": true,
+        "preferred_formats": [
+          "svg",
+          "png"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "8 symbol SVGs - circle, triangle, square, diamond, diagonal-stripe, dot-grid, chevron, cross",
+        "kind": "asset",
+        "required": true,
+        "preferred_formats": [
+          "svg",
+          "png"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "App icons - PNG 512, 192 (maskable) + favicon.ico",
+        "kind": "asset",
+        "required": true,
+        "preferred_formats": [
+          "svg",
+          "png"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "manifest.json + service worker scaffold",
+        "kind": "asset",
+        "required": true,
+        "preferred_formats": [
+          "svg",
+          "png"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Optional static how-to illustration (PNG/SVG)",
+        "kind": "asset",
+        "required": true,
+        "preferred_formats": [
+          "svg",
+          "png"
+        ],
+        "notes": ""
+      }
+    ],
+    "status": "pending",
+    "resolved_at_utc": null
+  }
+]

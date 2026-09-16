@@ -1,0 +1,7 @@
+openai
+gradio
+playwright
+pillow
+requests
+tiktoken
+rapidfuzz
